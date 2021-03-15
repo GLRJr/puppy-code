@@ -3,12 +3,14 @@ import React, { useState, useEffect }  from 'react';
 import { StyleSheet, Text, TextInput, Image, TouchableWithoutFeedback, Keyboard, View, TouchableOpacity, ScrollView } from 'react-native';
 // import LinearGradient from 'expo-linear-gradient';
 import * as ImagePicker from 'expo-image-picker';
-import styles from './src/Screens/CreateProfile/styles.js';
-// import  Constants from 'expo-constants';
-// import mhcat from './assets/mhcat.jpeg'
+import styles from './styles.js'
+//import  Constants from 'expo-constants';
+//import mhcat from './assets/mhcat.jpeg'
 
 
-export default function ImagePickerExample() {
+// export default function App() {
+
+  export default function ImagePickerExample() {
     const [image, setImage] = useState(null);
     const [prepVideo, setPrepVideo] = useState(null);
   
